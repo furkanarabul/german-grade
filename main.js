@@ -19,7 +19,7 @@ button.addEventListener('click', (e) => {
     // values[0] = maximum grade
     // values[1] = minimum grade
     // values[2] = your grade
-    if(result >= 0 && values[0]>values[1]) {
+    if(result >= 0 && result<=5 && values[0]>values[1]) {
         resultGrade.innerHTML = result
     } else{
         description.className = "alert alert-danger"
@@ -38,7 +38,7 @@ button.addEventListener('click', (e) => {
     } else if(result >=3.6 && result <=4){
         description.className = "alert alert-warning"
         description.innerHTML =  `""ausreichend" (sufficient: an achievement which barely meets the requirements)`
-    } else if(result >=4){
+    } else if(result >=4 && result <=5){
         description.className = "alert alert-danger"
         description.innerHTML =  `"mangelhaft" / "ungenügend" / "nicht bestanden" (insufficient / failed: an achievement which does not meet the requirements)`
     }
