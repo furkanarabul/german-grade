@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>German Grade Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+    <div class="container">
+        <div class="row">
+            <form>
+                <div class="col-md-12 mt-3">
+                    <input id="maxGrade">
+                    <label for="maxGrade" class="ml-2">Maximum grade at your university</label>
+                </div>
+                <div class="col-md-12 mt-3">
+                    <input id="minPassingGrade">
+                    <label for="minPassingGrade" class="ml-2">Minimum passing grade at your university</label>
+                </div>
+                <div class="col-md-12 mt-3">
+                    <input id="yourGrade">
+                    <label for="yourGrade" class="ml-2">Your current overall grade at your university</label>
+                </div>
+                <div class="col-md-12 text-center mt-5">
+                    <button class="btn btn-outline-primary" id="calculate">Calculate</button>
+                </div>
+                <div class="col-md-12 mt-3">
+                    <div id="yourGermanGrade" class="grade text-center"></div>
+                </div>
+                <div class="description col-md-12 mt-3">
+                    <div class="alert mt-3 d-none" role="alert">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>
