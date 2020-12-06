@@ -14,22 +14,22 @@
     <body>
     <div class="container">
         <div class="row main justify-content-center">
-            <div class="col-md-12 text-center"><h2>Grade Conversion using the Bavarian Formula</h2></div>
-            <form>
+            <div class="col-md-12 text-center"><h2>GERMAN <span class="red">GRADE</span> <span class="yellow">CONVERTER</span></h2></div>
+            <form class="mt-3">
                 <div class="col-md-12 mt-3">
-                    <input id="maxGrade">
+                    <input id="maxGrade" type="number">
                     <label for="maxGrade" class="ml-2">Maximum grade at your university</label>
                 </div>
                 <div class="col-md-12 mt-3">
-                    <input id="minPassingGrade">
+                    <input id="minPassingGrade" type="number">
                     <label for="minPassingGrade" class="ml-2">Minimum passing grade at your university</label>
                 </div>
                 <div class="col-md-12 mt-3">
-                    <input id="yourGrade">
+                    <input id="yourGrade" type="number">
                     <label for="yourGrade" class="ml-2">Your current overall grade at your university</label>
                 </div>
                 <div class="col-md-12 text-center mt-5">
-                    <button class="btn btn-outline-primary" id="calculate">Calculate</button>
+                    <button class="btn btn-outline-dark" id="calculate"><i class="fas fa-exchange-alt"></i></button>
                 </div>
                 <div class="col-md-12 mt-3">
                     <div id="yourGermanGrade" class="grade text-center"></div>
