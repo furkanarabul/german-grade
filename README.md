@@ -6,3 +6,5 @@ The German grading system is different from other countries. When I was applying
 This tiny grade calculator converts the grades in GPA, percentage or american grading system into German grading system using Modified Bavarian Formula.
 
 live preview : https://german-grade.web.app/
+
+![](preview.jpg)
