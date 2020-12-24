@@ -18,6 +18,15 @@ body {
 h2{
     text-transform:uppercase;
 }
+a{
+    text-decoration: none;
+    color: inherit!important;
+    opacity: 0.2;
+}
+a:hover{
+    opacity: 1;
+    transition: all 0.5s ease;
+}
 .container{
     display:flex;
     height:20vh;
@@ -60,6 +69,11 @@ button{
 }
 .yellow{
     color:#fbc12c
+}
+.github{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
 }
 @media only screen and (max-width: 991px) {
     form {
